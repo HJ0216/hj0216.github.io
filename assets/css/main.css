@@ -117,7 +117,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #6f7577;
-		font-family: "Raleway", "Helvetica", sans-serif;
+		font-family: sans-serif, "Raleway", "Helvetica";
 		font-size: 15pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -129,13 +129,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #8cd1a8;
+		color: #769aff;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent !important;
-			color: #8cd1a8 !important;
+			color: #4e7dff !important;
 			text-decoration: none;
 		}
 
@@ -172,13 +172,13 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1em;
+		font-size: 1.5em;
 		line-height: 1.5em;
 	}
 
 	h4 {
-		font-size: 0.9em;
-		line-height: 1.5em;
+		font-size: 1.2em;
+		line-height: 0em;
 	}
 
 	h5 {
@@ -259,7 +259,7 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
-		width: 80%;
+		width: 70%;
 	}
 
 		.container.xsmall {
@@ -2021,7 +2021,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: inset 0 0 0 2px #8cd1a8;
+			box-shadow: inset 0 0 0 2px #5e7dff;
 		}
 
 	select {
@@ -2123,7 +2123,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: inset 0 0 0 2px #8cd1a8;
+			box-shadow: inset 0 0 0 2px #5e7dff;
 		}
 
 	input[type="radio"] + label:before {
@@ -2657,7 +2657,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #8cd1a8;
+			background-color: #769aff;
 			border: 0;
 			box-shadow: none;
 			color: #ffffff !important;
@@ -2668,7 +2668,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #9ed8b6;
+				background-color: #4e7dff;
 			}
 
 			input[type="submit"].primary:active,
@@ -2676,7 +2676,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #7aca9a;
+				background-color: #4e7dff;
 			}
 
 			input[type="submit"].primary.icon:before,
@@ -2684,7 +2684,7 @@ input, select, textarea {
 			input[type="button"].primary.icon:before,
 			button.primary.icon:before,
 			.button.primary.icon:before {
-				color: #d1eddc;
+				color: #769aff;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2738,7 +2738,7 @@ input, select, textarea {
 		}
 
 		.main .container {
-			padding: 5em 2.5em 8em 2.5em ;
+			padding: 2em 2.5em 8em 2.5em ;
 			background: rgba(255, 255, 255, 0.95);
 			box-shadow: inset 0 1px 0 0 #dddddd;
 		}
@@ -2833,7 +2833,7 @@ input, select, textarea {
 			#header header p {
 				color: #ffffff;
 				font-weight: 700;
-				margin: 1.5em 0 0 0;
+				margin: 0.5em 0 0 0;
 			}
 
 		#header .container {
@@ -3146,11 +3146,39 @@ input, select, textarea {
 	}
 
 .introduction {
-  text-align: left; /* 텍스트를 왼쪽으로 정렬합니다. */
+  text-align: left;
 }
 
 .introduction p {
-  margin: 0; /* <p> 태그의 위아래 기본 여백을 모두 제거합니다. */
-  padding: 0; /* <p> 태그의 내부 여백을 제거합니다. */
-  line-height: 1.6; /* 줄과 줄 사이의 높이를 적절하게 조정합니다. (값을 조절해보세요) */
+  margin: 0;
+  padding: 0; 
+  line-height: 1.6;
+}
+
+.skills {
+  text-align: left; 
+}
+
+.skills p {
+  margin: 0;
+  padding: 0; 
+  line-height: 1.6; 
+}
+
+.career {
+  text-align: left; 
+}
+
+.career p {
+  margin: 0;
+  padding: 0; 
+  line-height: 1.6; 
+}
+
+.career.gary{
+	color: #a8a8a8;
+}
+
+.career ul.project{
+	margin: 0;
 }
