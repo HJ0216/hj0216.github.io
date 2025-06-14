@@ -182,8 +182,8 @@ input, select, textarea {
 	}
 
 	h5 {
-		font-size: 0.8em;
-		line-height: 1.5em;
+		font-size: 1.1em;
+		line-height: 0em;
 	}
 
 	h6 {
@@ -3145,6 +3145,12 @@ input, select, textarea {
 
 	}
 
+.information p{
+  margin: 0;
+  padding: 0; 
+  line-height: 1.6;
+}
+
 .introduction {
   text-align: left;
 }
@@ -3181,4 +3187,30 @@ input, select, textarea {
 
 .career ul.project{
 	margin: 0;
+}
+
+.license-list {
+  max-width: 250px;
+}
+
+.license-list p{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.contact-list {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.2em 0.7em;
+  text-align: left; 
+
+  width: fit-content;
+  margin: 0 auto;
+
+  color: #0A2463;
+}
+
+.container .others {
+	justify-self: end;
 }
