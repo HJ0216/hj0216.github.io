@@ -2710,10 +2710,10 @@ input, select, textarea {
 		-webkit-transition: opacity 0.5s ease-out;
 		-ms-transition: opacity 0.5s ease-out;
 		transition: opacity 0.5s ease-out;
-		background-attachment: fixed,							fixed;
-		background-position: top left,						center center;
-		background-repeat: repeat,							none;
-		background-size: auto,							cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+		background-repeat: repeat, none;
+		background-size: auto, cover;
 		height: 100%;
 		left: 0;
 		opacity: 0;
@@ -2817,7 +2817,7 @@ input, select, textarea {
 			}
 
 				#header header a:hover {
-					color: #ffffff !important;
+					color: #4e7dff !important
 				}
 
 			#header header h1 {
@@ -3144,6 +3144,12 @@ input, select, textarea {
 				}
 
 	}
+
+.information {
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+}
 
 .information p{
   margin: 0;
