@@ -3220,3 +3220,7 @@ input, select, textarea {
 .container .others {
 	justify-self: end;
 }
+
+div#lucky-log, div#msgs-refactoring {
+	scroll-margin-top: 20px;
+}
